@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: hsl(0, 0%, 1%);
+  --white: hsl(0, 0%, 99%);
+
+  --blue-100: hsl(237, 86%, 64%);
+  --blue-200: hsl(237, 100%, 73%);
+
+  --kode-mono: "Kode Mono", monospace;
+  --fira-code: "Fira Code", monospace;
+
+  --ratio: 1.250;
+
+  --font: .5rem;
+  --font-s: calc(var(--font) * var(--ratio));
+  --font-m: calc(var(--font-s) * var(--ratio));
+  --font-l: calc(var(--font-m) * var(--ratio));
+  --font-xl: calc(var(--font-l) * var(--ratio));
+  --font-xxl: calc(var(--font-xl) * var(--ratio));
+
+  --space: .5rem;
+  --space-s: calc(var(--space) * var(--ratio));
+  --space-m: calc(var(--space-s) * var(--ratio));
+  --space-l: calc(var(--space-m) * var(--ratio) * 3);
+
+  color-scheme: dark;
+  color: var(--white);
+  background-color: var(--black);
+  scrollbar-color: var(--white) var(--black);
+  scrollbar-width: thin;
+}
+
+html {
+  font-family: var(--fira-code);
+  line-height: 1;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, #root {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100dvh;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+  text-transform: uppercase;
+  font-family: var(--kode-mono);
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  transform: translateX(-2px);
+  font-size: clamp(56px, calc(5vw + var(--font-s)), 100px);
+  /* font-size: calc(5vw + var(--font-s)); */
+}
+
+h2 {
+  font-size: 32px;
+}
+
+a {
+  font-weight: 500;
+  /* color: #646cff; */
+  color: var(--blue-200);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--blue-100);
+}
+
+p, li, span {
+  font-size: var(--font-m);
+  max-width: 45ch;
+  line-height: 1.5;
+}
+
+button {
+  background-color: var(--blue-200);
+  border: none;
+  color: var(--black);
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: color 0.25s;
+}
+button:hover {
+  background-color: var(--blue-100);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  object-fit: cover;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--white);
+    background-color: var(--black);
+  }
+
+  a:hover {
+    color: var(--blue-200);
+  }
+
+  button {
+    background-color: var(--white);
+  }
+}
