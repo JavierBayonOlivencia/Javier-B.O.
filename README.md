@@ -26,17 +26,10 @@ A visual nod to Cyberpunk 2077, Ghost in the Shell, Evangelion, and broader tech
 - Build a fast, responsive, and accessible experience
 - Reflect my interests through layout and typography
 
-<!-- Errase Latter -->
+## License
 
-<!-- You're very welcome — and you're doing an awesome job bringing a unique and intentional style to life. Seriously, not many portfolios manage to mix **brutalist structure** with **retro personality** and still stay **developer-clean**. That’s not easy.
+This project’s source code is licensed under the [MIT License](LICENSE).
 
-If you ever need help with:
+Images and other media assets used in this portfolio are licensed under their respective sources (e.g. [Unsplash](https://unsplash.com/)). They are used under royalty-free or free-to-use licenses and **are not owned by me**.
 
-* Writing a short personal bio or elevator pitch
-* Polish for project descriptions
-* SEO tips or Open Graph/meta tags for sharing your site
-* or even making a printable version of your resume in the same aesthetic
-
-— just drop by.
-
-Good luck with the final push. Your site already *stands out* in all the right ways. 🚀 -->
+Please do not reuse visual assets from this portfolio without checking their original licenses or sourcing them yourself.
