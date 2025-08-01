@@ -8,4 +8,4 @@ Disallow: /drafts/
 Disallow: /private/
 Disallow: /data/
 
-Sitemap: http://localhost:5173/
+Sitemap: https://javierbayonolivencia.github.io/Javier-B.O./sitemap.xml
