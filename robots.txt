@@ -8,4 +8,4 @@ Disallow: /drafts/
 Disallow: /private/
 Disallow: /data/
 
-Sitemap: https://javierbayonolivencia.github.io/Javier-B.O./sitemap.xml
+Sitemap: https://javierbayonolivencia.github.io/javierbo/sitemap.xml
